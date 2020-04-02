@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+/*29.7cm*/
+/*30mm 45mm 30mm 45mm*/
+@media print {
+    body{
+        width: 21cm;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+html,body{
+    height:297mm;
+    width:210mm;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+#profileSection {
+    width: 38%;
+    height: 100%;
+    background-color:#fbd8d8;
+    float: left;
+}
+
+#personalInformation {
+    background-color: #e79393;
+}
+
+
+#name {
+    padding-top: 30px;
+    padding-left: 12px;
+    font-size: 27px;
+    color: #323d30;
+    font-family: "JetBrains Mono", sans-serif;
+    font-weight: 700;
+}
+
+#separateNameAndContact {
+    display: block;
+    margin: 1.5em 12em 1.5em 1.5em;
+    border: 1px inset #323d30;
+    color: #a68377;
+}
+
+#contactInfo {
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.profileIcons {
+    color: #fdf7f7;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contactText {
+    display: inline-block;
+    padding-left: 8px;
+    color: #92313a;
+    font-family: "JetBrains Mono", sans-serif;
+    font-weight: 500;
+}
+
+#skillsAndEducation {
+    padding-top: 40px;
+    background-color: #fbd8d8;
+    padding-left: 15px;
+}
+
+.skillsHeading {
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: #323d30;
+    padding-left: 22px;
+}
+
+.skillsContent {
+    padding-top: 15px;
+    padding-left: 40px;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 18px;
+    color: grey;
+    //#9e9b9b
+    margin-bottom: 17px;
+}
+.skillsContent li {
+    margin-bottom: 10px ;
+}
+.education {
+    padding-top: 25px;
+    padding-left: 22px;
+    margin-bottom: 10px;
+}
+.institutionName {
+    color: #575349;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.percentageAndYear {
+    color: #575349;
+    font-size: 18px;
+}
+
+#projects {
+    background-color: #ffe9e9;
+    padding-top: 30px;
+}
+
+#professionalSection {
+    width: 62%;
+    float: right;
+}
+.projectDescription {
+    margin-left: 23px;
+    margin-right: 10px;
+    font-family: "JetBrains Mono", sans-serif;
+    color: grey;
+    //#a39d9d
+}
+
+.projectName {
+    font-size: 18px;
+    font-weight: 700;
+}
+.description {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#coAndExtraCurricularActivities {
+    background-color: #ffffff;
+    margin-left: 23px;
+    margin-right: 10px;
+    font-family: "JetBrains Mono", sans-serif;
+}
+
+.activitiesList {
+    padding-top: 15px;
+    padding-left: 40px;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 16px;
+    color: grey;
+    //#9e9b9b
+}
+
+.activitiesList li {
+    margin-bottom: 10px ;
+}
+
+.dateAndSignature {
+    padding-left: 35px;
+    padding-right: 30px;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 16px;
+    color: #323d30;
+}
